@@ -1,0 +1,4 @@
+const SUPABASE_URL = "https://nnnlkuuscsuuncnrdifr.supabase.co";
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5ubmxrdXVzY3N1dW5jbnJkaWZyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjcxMTY5NjgsImV4cCI6MjA4MjY5Mjk2OH0.-C5SPqnWiVsfzrWpdNAuBXQR37efWNibDOkvmzb3HW8";
+
+const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
